@@ -1,0 +1,38 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+    font-size: 15px;
+    scroll-behavior: smooth;
+  }
+  * {
+    scroll-behavior: smooth;
+    scroll-margin-top: 120px;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+  }
+
+  .header {
+      display: flex;
+      justify-content: space-evenly;
+  }
+
+  #main {
+      display: flex;
+      justify-content: center;
+  }
+
+  .pre {
+      font-size: 1.5rem;
+      color: #4834df;
+  }
